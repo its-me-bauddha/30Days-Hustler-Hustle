@@ -101,7 +101,7 @@ TrieNode *deleteWord(TrieNode *root, string word)
     }
 
     // recursive call
-    return deleteWord(child, word.substr(1));
+    return  deleteWord(child, word.substr(1));
 }
 int main()
 {
